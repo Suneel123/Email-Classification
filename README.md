@@ -1,4 +1,4 @@
-# ProjectName
+# Email-Classification
 Project Structure
 
 ```
@@ -15,8 +15,8 @@ Project Structure
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
 ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's id, and a short `_` delimited description, e.g.
-│                         `10-1322-initial_data_exploration.ipynb`.
+│                         the creator's name or id, and a short `_` delimited description, e.g.
+│                         `10-suneel-initial_data_exploration.ipynb`.
 │
 ├── references         <- Data dictionaries, research papers etc.
 │
