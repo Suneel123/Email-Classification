@@ -1,0 +1,34 @@
+Sweep Instructions
+
+Standing instructions cater to specific amounts and specific dates. But certain customers may want amounts to be transferred from one account to another if the balance in the accounts exceed a particular level or when the balances go below a certain level. Such instructions are referred to as Sweep Instructions.
+Sweep Instructions involve Transaction accounts. They are not applicable to Installment or Fixed Deposits accounts.
+
+Sweep instructions (SO) have -
+A Begin date for execution
+An End date for execution
+Condition for sweep - clear balance exceeding a level or balance dipping below a level
+(book balance and available balance are not considered for Standing Instructions or Sweep Instructions).
+Accounts that receives credit and debit
+Frequency of Execution - daily, wekly, monthly,quarterly, half yearly and yearly
+Next due date for execution
+Sweep Instruction charges  
+Counters that indicates the number of times the execution has taken place and not taken place.
+
+Instructions can be modified or deleted without any restrictions.
+
+Sweep condition examples:
+(These are the three variants of SO)
+1. If (Clear) Balance exceeds BZD 50000 in Account Id 123, transfer amounts in excess of BZD 50000 to Account Id 345.
+
+2. If balance goes below BZD 10000 in Account Id 345, transfer money from Account Id657.
+(Amount transferred will be BZD10000 - Clear Balance in Account Id 345).
+This amount is debited to Account Id 657 and Credited to account Id 345; balance in account Id 345 now becomes BZD10000.
+
+3. If negative balance exceeds BZD20000 in Account Id345,  transfer money from Account Id657.
+(Amount transferred will be negative Clear Balance - BZD10000).
+This amount is debited to Account Id 657 and Credited to account Id 345; balance in account Id 345 now becomes BZD10000.
+
+Every SO has an Id.
+This Id is mentioned in the transaction narration.
+
+=========================================================================

@@ -1,0 +1,17 @@
+Sweep Instructions
+------------------
+Standing instructions cater to specific amounts and specific dates. But certain customers may want amounts to be transferred from one account to another if the balance in the accounts exceed a particular level or when the balances go below a certain level. Such instructions are referred to as Sweep Instructions.
+Sweep Instructions involve Transaction accounts. They are not applicable to Installment or Fixed Deposits accounts.
+
+Sweep instructions (SO) have -
+A Begin date for execution
+An End date for execution
+Condition for sweep - clear balance exceeding a level or balance dipping below a level
+(book balance and available balance are not considered for Standing Instructions or Sweep Instructions).
+Accounts that receives credit and debit
+Frequency of Execution - daily, wekly, monthly,quarterly, half yearly and yearly
+Next due date for execution
+Sweep Instruction charges  
+Counters that indicates the number of times the execution has taken place and not taken place.
+
+Instructions can be modified or deleted without any restrictions.

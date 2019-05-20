@@ -1,0 +1,11 @@
+Cheque Status
+-----------------
+You can enquire into the status of a particular cheque or that of all the cheques issued on an account.  The different status are:
+
+Unpaid
+Paid
+Returned
+Stopped
+
+When you issue a cheque, it has the unpaid status. This status lasts till the cheque is paid or returned unpaid. 
+A cheque returned unpaid , when subsequently paid, gains the status 'paid'.

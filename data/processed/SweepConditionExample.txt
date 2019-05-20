@@ -1,0 +1,14 @@
+Sweep condition examples:
+(These are the three variants of SO)
+1. If (Clear) Balance exceeds BZD 50000 in Account Id 123, transfer amounts in excess of BZD 50000 to Account Id 345.
+
+2. If balance goes below BZD 10000 in Account Id 345, transfer money from Account Id657.
+(Amount transferred will be BZD10000 - Clear Balance in Account Id 345).
+This amount is debited to Account Id 657 and Credited to account Id 345; balance in account Id 345 now becomes BZD10000.
+
+3. If negative balance exceeds BZD20000 in Account Id345,  transfer money from Account Id657.
+(Amount transferred will be negative Clear Balance - BZD10000).
+This amount is debited to Account Id 657 and Credited to account Id 345; balance in account Id 345 now becomes BZD10000.
+
+Every SO has an Id.
+This Id is mentioned in the transaction narration.

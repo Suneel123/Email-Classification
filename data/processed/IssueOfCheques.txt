@@ -1,0 +1,9 @@
+Issue of Cheques
+-------------------------
+You can issue a single cheque or a cheque book on a transaction account.
+You can define the number of leaves that a cheque book contains. You can define several cheque books, each with different number of leaves.
+
+The cheque number has 6 numericals. When you issue a cheque book, it is enough if you indicate the begin number of the cheque book. The system creates the remaining numbers by taking into account the number of leaves that the cheque book contains.
+Cheque number is not unique.
+
+You can specify the charge that has to be collected per cheque leaf. The system calculates the charges for the total number of cheques issued.

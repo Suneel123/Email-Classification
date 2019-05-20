@@ -1,0 +1,7 @@
+Cheque Management
+----------------------------
+Bankfair allows issue of cheques to customers on transaction accounts. Cheques cannot be issued on fixed or instalment accounts. When a debit is made through cheques, the transaction mechanism ensures that 
+
+    • the cheque number pertain to the concerned  account
+    •  it is not already paid and 
+    •  the payment of the cheque has not been stopped. 

@@ -1,0 +1,57 @@
+Cheque Management
+----------------------------
+Bankfair allows issue of cheques to customers on transaction accounts. Cheques cannot be issued on fixed or instalment accounts. When a debit is made through cheques, the transaction mechanism ensures that 
+
+    • the cheque number pertain to the concerned  account
+    •  it is not already paid and 
+    •  the payment of the cheque has not been stopped. 
+
+Issue of Cheques
+-------------------------
+You can issue a single cheque or a cheque book on a transaction account.
+You can define the number of leaves that a cheque book contains. You can define several cheque books, each with different number of leaves.
+
+The cheque number has 6 numericals. When you issue a cheque book, it is enough if you indicate the begin number of the cheque book. The system creates the remaining numbers by taking into account the number of leaves that the cheque book contains.
+Cheque number is not unique.
+
+You can specify the charge that has to be collected per cheque leaf. The system calculates the charges for the total number of cheques issued.
+
+Cheque Status
+-----------------
+You can enquire into the status of a particular cheque or that of all the cheques issued on an account.  The different status are:
+
+Unpaid
+Paid
+Returned
+Stopped
+
+When you issue a cheque, it has the unpaid status. This status lasts till the cheque is paid or returned unpaid. 
+A cheque returned unpaid , when subsequently paid, gains the status 'paid'.
+
+Stopped Cheque
+-------------------
+You can stop the payment of an issued cheque or range of cheques. When you give the stop instruction, the system does these validations:
+
+Do the cheques belong to the indicated account ?
+Are they still 'unpaid' ?
+
+You can capture  the following information while stopping a cheque :
+
+Cheque Number  
+Currency & Amount
+Date
+Benefuciary's Name
+
+You can capture  the following information while stopping a series of cheques:
+
+Cheque Begin Number
+Cheque End Number
+
+
+The system produces an acknowledgement to the customer informing the recording of stop instruction at EoD.
+
+You can view the stop instructions of a particular account or all the stop instructions held by the system.
+
+You can revoke a stop instruction whenever you want. 
+ 
+=================================

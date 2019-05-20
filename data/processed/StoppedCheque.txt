@@ -1,0 +1,25 @@
+Stopped Cheque
+-------------------
+You can stop the payment of an issued cheque or range of cheques. When you give the stop instruction, the system does these validations:
+
+Do the cheques belong to the indicated account ?
+Are they still 'unpaid' ?
+
+You can capture  the following information while stopping a cheque :
+
+Cheque Number  
+Currency & Amount
+Date
+Benefuciary's Name
+
+You can capture  the following information while stopping a series of cheques:
+
+Cheque Begin Number
+Cheque End Number
+
+
+The system produces an acknowledgement to the customer informing the recording of stop instruction at EoD.
+
+You can view the stop instructions of a particular account or all the stop instructions held by the system.
+
+You can revoke a stop instruction whenever you want. 
